@@ -15,13 +15,56 @@ header h2{
     margin-top: 82px;
     font-size: 40px;
     font-weight: 400;
-    margin-left: 172px;
+    margin-left: 109px;
     width: 536px;
 }
 header p{
     font-size: 20px;
     font-weight: 400;
     width: 536px;
-    margin: 32px 0 0 172px;
+    margin: 32px 0 0 109px;
     padding-bottom: 151px ;
+}
+#menuPromotion{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 171px 65px 171px;
+    background: #EAECE5;
+    background-size: 100%;
+}
+.cards{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 19.5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2px;
+}
+.cards p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#main_Section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 171px 99px 171px;
+}
+#video{
+    min-width: 534px;
+}
+#main_Text{
+    max-width: 496px;
+}
+#main_Text h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #247BA0;
+}
+#main_Text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 12px 0;
 }
